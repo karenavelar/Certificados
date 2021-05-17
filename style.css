@@ -1,0 +1,103 @@
+body {
+    font-family: 'Spartan', sans-serif;
+    background-image: url("img/24044.jpg");
+}
+
+header {
+    background-image: linear-gradient(to bottom, #cdf4ff, #effbff, #ffffff);
+    background-size: cover;
+    height: 100px;
+    border-radius: 5px;
+}
+
+header p {
+    padding-left: 7%;
+}
+
+.logo {
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translate(0%, -17%);
+    border: 8px solid white; 
+  }
+
+.social-media {
+  padding: 10px 120px;
+  background-color: #fffdfd;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.social-media button{
+  min-width: 70px;
+  padding: 8px;
+  font-size: 12px;
+  text-transform: capitalize;
+  background-color: #aeedff;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  border: 0px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    margin-top: 100px;
+    background-color: white;
+    padding: 15px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.container h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+ul {
+    list-style-type: decimal;
+    border-radius: 5px;
+    padding-bottom: 12px;
+}
+
+ul p {
+    font-weight: bolder;
+    margin-left: 6%;
+}
+
+.certificate {
+    width: 18px;
+}
+
+.list {
+    margin-top: 155px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+}
+  
+.list li {
+    text-decoration: none;
+    padding: 5px;
+}
+  
+li {
+    background-color: #effbff;
+    list-style-type: none;
+    width: 350px;
+    max-height: 100px;
+    padding: 20px;
+    margin: 1%;
+    border-left: 5px solid #cdf4ff;
+    margin-left: 6%;
+    margin-right: auto;
+}
